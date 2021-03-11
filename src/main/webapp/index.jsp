@@ -5,9 +5,11 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "This is only for my and my expirience:\nPractic tomee: " %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<p align="center">
+    <a href="diExample">Dependency Injection </a>
+</p>
 </body>
 </html>
