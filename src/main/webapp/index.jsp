@@ -10,7 +10,8 @@
 <br/>
 <p align="center">
     <a href="diExample">Dependency Injection </a><br><br>
-    <a href="/qualifier">Qualifier</a>
+    <a href="/qualifier">Qualifier</a><br><br>
+    <a href="/DIAlternative">Alternative</a>
 </p>
 </body>
 </html>
