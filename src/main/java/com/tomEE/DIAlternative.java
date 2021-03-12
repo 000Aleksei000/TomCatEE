@@ -17,7 +17,14 @@ public class DIAlternative extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().write(child1.getName());
+        resp.getWriter().write("<html>");
+        resp.getWriter().write("In beans.xml need write : <br> ");
+        resp.getWriter().write("&lt;alternatives> <br>" +
+                "        &lt;class>com.tomEE.Child1&lt;/class> <br>" +
+                "    &lt;/alternatives> <br>");
+        resp.getWriter().write("<html>");
+        resp.getWriter().write("<html>");
+        resp.getWriter().write("</html>");
     }
 }
 
