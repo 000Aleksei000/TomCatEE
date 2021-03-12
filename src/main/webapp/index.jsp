@@ -9,7 +9,8 @@
 </h1>
 <br/>
 <p align="center">
-    <a href="diExample">Dependency Injection </a>
+    <a href="diExample">Dependency Injection </a><br><br>
+    <a href="/qualifier">Qualifier</a>
 </p>
 </body>
 </html>
