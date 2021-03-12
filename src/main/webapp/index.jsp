@@ -11,7 +11,9 @@
 <p align="center">
     <a href="diExample">Dependency Injection </a><br><br>
     <a href="/qualifier">Qualifier</a><br><br>
-    <a href="/DIAlternative">Alternative</a>
+    <a href="/DIAlternative">Alternative</a><br><br>
+    <a href="/DIProducers">Producers</a><br><br>
+
 </p>
 </body>
 </html>
