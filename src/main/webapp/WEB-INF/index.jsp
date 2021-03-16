@@ -18,6 +18,7 @@
     <a href="/conversationScope">Conversation Scope</a><br><br>
     <a href="/LiveCycleBean">Live Cycle Bean</a><br><br>
     <a href="/Interceptor">Interceptor Class</a><br><br>
+    <a href="/ChainInterceptor">Chain Interceptor</a>
 </p>
 <h3 align="center">JSF : </h3>
 <p align="center">
