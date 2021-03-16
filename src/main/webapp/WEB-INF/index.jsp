@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Test</title>
 </head>
 <body>
 <h1><%= "This is only for my and my expirience:\nPractic tomee: " %>
@@ -16,10 +16,12 @@
     <a href="/disposers">Disposers</a><br><br>
     <a href="/Scope">Scope</a><br><br>
     <a href="/conversationScope">Conversation Scope</a><br><br>
+    <a href="/LiveCycleBean">Live Cycle Bean</a><br><br>
 </p>
 <h3 align="center">JSF : </h3>
 <p align="center">
-    <a href="/jsf/firstJSF.xhtml">First JSF</a>
+    <a href="/jsf/FacesServlet.xhtml">First JSF</a> <br><br>
+    <a href="/ELBeans">Expression language Bean</a><br><br>
 </p>
 </body>
 </html>

@@ -13,10 +13,12 @@
         <jsp-file>/jsp/Qualifier.jsp</jsp-file>
     </servlet>
 
+
     <servlet-mapping>
         <servlet-name>Qualifier</servlet-name>
         <url-pattern>/qualifier</url-pattern>
     </servlet-mapping>
+
 
 </web-app>
 
