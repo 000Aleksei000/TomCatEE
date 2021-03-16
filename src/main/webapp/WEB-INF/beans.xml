@@ -8,4 +8,9 @@
     <alternatives>
         <class>com.tomEE.Child1</class>
     </alternatives>
+
+    <interceptors>
+        <class>com.tomEE.InterceptorBindingExample.InterceptorForBinding</class>
+        <class>com.tomEE.InterceptorBindingExample.InterceptorForBinding2</class>
+    </interceptors>
 </beans>
