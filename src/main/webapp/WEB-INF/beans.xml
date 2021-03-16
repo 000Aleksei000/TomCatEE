@@ -13,4 +13,10 @@
         <class>com.tomEE.InterceptorBindingExample.InterceptorForBinding</class>
         <class>com.tomEE.InterceptorBindingExample.InterceptorForBinding2</class>
     </interceptors>
+
+    <decorators>
+        <class>
+            com.tomEE.DecoratorExample.DecoratorPrintInfo
+        </class>
+    </decorators>
 </beans>

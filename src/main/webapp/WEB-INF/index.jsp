@@ -20,6 +20,7 @@
     <a href="/Interceptor">Interceptor Class</a><br><br>
     <a href="/ChainInterceptor">Chain Interceptor</a><br><br>
     <a href="/ServletForInterceptorBinding">Interceptor Binding</a><br><br>
+    <a href="/Decorator">Decorator</a><br><br>
 </p>
 <h3 align="center">JSF : </h3>
 <p align="center">
