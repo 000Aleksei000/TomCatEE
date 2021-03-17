@@ -1,4 +1,4 @@
-package com.tomEE.ChainInterceptor;
+package com.tomEE.chainInterceptor;
 
 import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.InvocationContext;

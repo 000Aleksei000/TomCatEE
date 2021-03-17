@@ -1,14 +1,14 @@
-package com.tomEE.InterceptorBindingExample;
+package com.tomEE.interceptorBindingExample;
 
 import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.Interceptor;
 import jakarta.interceptor.InvocationContext;
-@Two
+@One
 @Interceptor
-public class InterceptorForBinding2 {
+public class InterceptorForBinding {
     @AroundInvoke
     private Object aroundInvoke(InvocationContext context) throws Exception {
-        System.out.println("@AroundInvoke 2");
+        System.out.println("@AroundInvoke 1");
         return context.proceed();
     }
 }

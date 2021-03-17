@@ -1,4 +1,4 @@
-package com.tomEE.InterceptorBindingExample;
+package com.tomEE.specializationExample;
 
 import jakarta.inject.Inject;
 import jakarta.servlet.ServletException;
@@ -9,13 +9,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/ServletForInterceptorBinding")
-public class ServletForInterceptorBinding extends HttpServlet {
+@WebServlet("/special")
+public class ServletForSpecializacion extends HttpServlet {
     @Inject
-    InterceptorService interceptorService;
-
+    A a;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        interceptorService.doJob();
+        a.print();
     }
 }

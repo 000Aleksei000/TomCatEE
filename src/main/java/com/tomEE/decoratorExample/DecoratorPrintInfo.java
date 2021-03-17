@@ -1,8 +1,7 @@
-package com.tomEE.DecoratorExample;
+package com.tomEE.decoratorExample;
 
 import jakarta.decorator.Decorator;
 import jakarta.decorator.Delegate;
-import jakarta.enterprise.inject.Decorated;
 import jakarta.inject.Inject;
 
 @Decorator

@@ -1,4 +1,4 @@
-package com.tomEE.DecoratorExample;
+package com.tomEE.decoratorExample;
 
 public class PrintInfo implements Printer{
     @Override

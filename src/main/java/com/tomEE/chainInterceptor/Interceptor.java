@@ -1,8 +1,5 @@
-package com.tomEE.ChainInterceptor;
+package com.tomEE.chainInterceptor;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
-import jakarta.interceptor.AroundConstruct;
 import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.InvocationContext;
 

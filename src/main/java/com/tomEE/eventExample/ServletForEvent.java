@@ -1,4 +1,4 @@
-package com.tomEE.IventExample;
+package com.tomEE.eventExample;
 
 import jakarta.inject.Inject;
 import jakarta.servlet.ServletException;
@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.util.Collections;
 
 @WebServlet("/Event")
 public class ServletForEvent extends HttpServlet {

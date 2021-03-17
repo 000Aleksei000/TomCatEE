@@ -1,15 +1,8 @@
-package com.tomEE.ChainInterceptor;
+package com.tomEE.chainInterceptor;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 import jakarta.enterprise.context.RequestScoped;
-import jakarta.enterprise.context.SessionScoped;
-import jakarta.interceptor.AroundConstruct;
-import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.Interceptors;
-import jakarta.interceptor.InvocationContext;
 
-import javax.naming.InitialContext;
 @RequestScoped
 @Interceptors({Interceptor.class, Interceptor2.class})
 public class BeanForInterceptor {

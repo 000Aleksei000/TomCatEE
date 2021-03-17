@@ -1,4 +1,4 @@
-package com.tomEE.DecoratorExample;
+package com.tomEE.interceptorBindingExample;
 
 import jakarta.inject.Inject;
 import jakarta.servlet.ServletException;
@@ -9,13 +9,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/Decorator")
-public class ServletForDecorator extends HttpServlet {
+@WebServlet("/ServletForInterceptorBinding")
+public class ServletForInterceptorBinding extends HttpServlet {
     @Inject
-    Printer printer;
+    InterceptorService interceptorService;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        printer.print();
+        interceptorService.doJob();
     }
 }

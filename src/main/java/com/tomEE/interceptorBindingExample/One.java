@@ -1,14 +1,14 @@
-package com.tomEE.IventExample;
+package com.tomEE.interceptorBindingExample;
 
-import jakarta.inject.Qualifier;
+import jakarta.interceptor.InterceptorBinding;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Qualifier
-@Target({ElementType.METHOD,ElementType.TYPE, ElementType.PARAMETER, ElementType.FIELD})
+@InterceptorBinding
+@Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Remove {
+public @interface One {
 }

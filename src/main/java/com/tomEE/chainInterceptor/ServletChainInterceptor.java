@@ -1,4 +1,4 @@
-package com.tomEE.ChainInterceptor;
+package com.tomEE.chainInterceptor;
 
 import jakarta.inject.Inject;
 import jakarta.servlet.ServletException;

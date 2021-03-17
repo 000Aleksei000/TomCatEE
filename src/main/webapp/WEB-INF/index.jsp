@@ -21,7 +21,9 @@
     <a href="/ChainInterceptor">Chain Interceptor</a><br><br>
     <a href="/ServletForInterceptorBinding">Interceptor Binding</a><br><br>
     <a href="/Decorator">Decorator</a><br><br>
-    <a href="/Event">Event</a>
+    <a href="/Event">Event</a><br><br>
+<%--    <a href="/openWebBean">Open Web Bean</a>--%>
+    <a href="/special">Specialize</a>
 </p>
 <h3 align="center">JSF : </h3>
 <p align="center">

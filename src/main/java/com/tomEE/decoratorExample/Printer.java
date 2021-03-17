@@ -1,4 +1,4 @@
-package com.tomEE.DecoratorExample;
+package com.tomEE.decoratorExample;
 
 public interface Printer {
     public void print();

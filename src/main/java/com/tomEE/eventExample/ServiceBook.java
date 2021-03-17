@@ -1,4 +1,4 @@
-package com.tomEE.IventExample;
+package com.tomEE.eventExample;
 
 import jakarta.enterprise.event.Event;
 import jakarta.inject.Inject;

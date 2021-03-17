@@ -1,4 +1,4 @@
-package com.tomEE.IventExample;
+package com.tomEE.eventExample;
 
 public class Book {
     private String name;
