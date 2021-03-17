@@ -1,4 +1,4 @@
-package com.beanValidation.customValidator;
+package com.beanValidation.customValidatorWithComposit;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

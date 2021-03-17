@@ -1,4 +1,4 @@
-package com.beanValidation.customValidator;
+package com.beanValidation.customValidatorWithComposit;
 
 public class BeanForCustomValidator {
     @CheckEmail

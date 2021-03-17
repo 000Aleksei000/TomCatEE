@@ -29,7 +29,8 @@
 <h3 align="center">Bean Validation : </h3>
 <p align="center">
     <a href="/beanValidationExample">Validation Example</a><br><br>
-    <a href="/customValidator">Custom Validator</a><br><br>
+    <a href="/customValidator">Custom Validator Wits Composit</a><br><br>
+    <a href="/customValid">Custom Validator</a><br><br>
 </p>
 </p>
 <h3 align="center">JSF : </h3>
