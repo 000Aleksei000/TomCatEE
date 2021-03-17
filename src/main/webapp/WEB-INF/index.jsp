@@ -8,6 +8,7 @@
 <h1><%= "This is only for my and my expirience:\nPractic tomee: " %>
 </h1>
 <br/>
+<h3 align="center">Context and Dependency Injection : </h3>
 <p align="center">
     <a href="diExample">Dependency Injection </a><br><br>
     <a href="/qualifier">Qualifier</a><br><br>
@@ -24,6 +25,11 @@
     <a href="/Event">Event</a><br><br>
 <%--    <a href="/openWebBean">Open Web Bean</a>--%>
     <a href="/special">Specialize</a>
+</p>
+<h3 align="center">Bean Validation : </h3>
+<p align="center">
+    <a href="/beanValidationExample">Validation Example</a>
+</p>
 </p>
 <h3 align="center">JSF : </h3>
 <p align="center">
