@@ -34,6 +34,7 @@
     <a href="/classValidation">Class Validation</a><br><br>
     <a href="/servletForInheritance">Inheritance Validation</a><br><br>
     <a href="/validateMessage">Validate Message</a><br><br>
+    <a href="/groupsValidator">Groups Validator</a>
 </p>
 </p>
 <h3 align="center">JSF : </h3>
