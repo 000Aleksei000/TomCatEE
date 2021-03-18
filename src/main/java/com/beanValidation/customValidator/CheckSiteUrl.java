@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE,ElementType.FIELD, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CheckSiteUrl {
-    String message() default "{wrong URL}";
+    String message() default "{jakarta.validation.Constraint.url.port.message}";
 
     Class<?>[] groups() default {};
 

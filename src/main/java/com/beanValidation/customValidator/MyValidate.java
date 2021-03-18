@@ -37,8 +37,8 @@ public class MyValidate implements ConstraintValidator<CheckSiteUrl, String> {
             return false;
         }
         if (port != -1 && port != url.getPort()) {
-            constraintValidatorContext.disableDefaultConstraintViolation();
-            constraintValidatorContext.buildConstraintViolationWithTemplate("host invalid").addConstraintViolation();
+//            constraintValidatorContext.disableDefaultConstraintViolation();
+//            constraintValidatorContext.buildConstraintViolationWithTemplate("port invalid").addConstraintViolation();
             return false;
         }
         return true;
